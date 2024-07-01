@@ -1,0 +1,26 @@
+import Image from "next/image";
+
+export const Images = {
+  newsletterBG: "/newsletterBG.png",
+  getStartedBG: "/getStartedBG.png",
+  reviewbg: "/reviewbg.png",
+  reviewLess: "/reviewLess.png",
+  reviewGreater: "/reviewGreater.png",
+  review: "/review.png",
+  stars: "/stars.png",
+  greaterThan: "/greaterThan.png",
+  secThreeBG: "/secThreeBG.png",
+  infoBG: "/infoBG.png",
+  infoImg: "/infoImg.png",
+  facebook: "/facebook.png",
+  twitter: "/twitter.png",
+  camra: "/camra.png",
+  clinic: "/clinic.png",
+  fourthSecCenterImg: "/fourthSecCenterImg.png",
+  fullyfunction: "/fullyfunction.png",
+  logo: "/logo.png",
+  secondSecImg: "/secondSecImg.png",
+  secureData: "/secureData.png",
+  support: "/support.png",
+  thirdSecImg: "/thirdSecImg.png",
+};

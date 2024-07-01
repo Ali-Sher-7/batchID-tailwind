@@ -15,8 +15,11 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
-
 body {
+  font-family: "Poppins" !important;
+}
+
+/* body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -24,10 +27,902 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-}
+} */
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+}
+body {
+  font-family: "Poppins" !important;
+}
+
+.Navbar {
+  box-shadow: 0px 10px 10px 0px #07abf50d;
+  /* position: fixed; */
+  width: 100%;
+  z-index: 1;
+  background-color: white;
+}
+.Navbar .nav-link {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  margin-right: 35px;
+}
+svg {
+  max-width: 30px;
+  max-height: 30px;
+  width: 100%;
+  height: 100%;
+}
+
+.footerImg {
+  max-width: 43.94px;
+  max-height: 44.08px;
+  width: 100%;
+  height: 100%;
+}
+.info {
+  background-image: url("../../public/images/infoBG.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* padding-top: 120px !important; */
+  padding: 100px 40px;
+}
+.info h1 {
+  font-size: 80px;
+  font-weight: 600;
+  line-height: 120px;
+  align-items: center;
+}
+.info p {
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 52.5px;
+}
+.info .infoLink {
+  /* font-weight: bold; */
+  font-size: 24px;
+  line-height: 30.12px;
+}
+.info .infoImg {
+  max-width: 545px;
+  max-height: 545px;
+  height: 100%;
+  width: 100%;
+}
+.solForDentalClinic {
+  background-image: url("../../public/images/secondSecBG.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 75px 40px;
+}
+span {
+  color: #07abf5;
+}
+.solForDentalClinic h1 {
+  color: #07abf5;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 54px;
+}
+.solForDentalClinic p {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  align-items: center;
+}
+.solForDentalClinic img {
+  height: 100%;
+  width: 100%;
+  max-width: 1152px;
+  max-height: 1068px;
+}
+.batchIdApp .mobileimg {
+  max-width: 511px;
+  max-height: 527px;
+  height: 100%;
+  width: 100%;
+}
+.batchIdApp {
+  background-image: url("../../public/images/secThreeBG.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #fbfaff;
+  /* padding: 0px 40px 70px 40px; */
+  padding: 75px 40px;
+}
+.batchIdApp h1 {
+  font-size: 60px;
+  font-weight: 600;
+  /* line-height: 5px; */
+}
+.batchIdApp p {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 32px;
+  margin-bottom: 50px;
+  color: #07abf5;
+}
+.batchIdApp li {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 45px;
+  padding-bottom: 20px;
+  max-width: 640px;
+}
+.batchIdApp ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.batchIdApp .greaterthan {
+  color: #07abf5;
+  max-width: 23.38px;
+  max-height: 19px;
+  width: 100%;
+  height: 100%;
+  margin-right: 25px;
+}
+.optimaizAndStreamline {
+  /* padding: 70px 0px 130px 0px; */
+  padding: 75px 40px;
+}
+.optimaizAndStreamline h1 {
+  color: #07abf5;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 54px;
+}
+.optimaizAndStreamline p {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+}
+.lastLi {
+  padding-bottom: 0px !important;
+}
+.devClinic {
+  padding: 70px 150px 100px 150px;
+  background-color: #f3fbfb;
+  border-radius: 50px;
+}
+.devClinic-card-img {
+  max-width: 103px;
+  max-height: 103px;
+  width: 100%;
+  height: 100%;
+}
+.devClinicImg {
+  max-height: 630px;
+  max-width: 322px;
+  height: 100%;
+  width: 178%;
+  margin-top: -150px;
+  position: relative;
+  right: 65px;
+}
+
+.devClinic h5 {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 42px;
+  margin: 0px !important;
+  color: #07abf5;
+}
+.devClinic p {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+}
+.toStart {
+  justify-content: end;
+}
+.helped {
+  margin-top: -50px;
+}
+.helped .row {
+  color: white;
+  background-color: #07abf5;
+  border-radius: 10px;
+}
+.helped h1 {
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 87.85px;
+}
+.helped p {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 37.65px;
+}
+
+.star {
+  max-width: 198px !important;
+  max-height: 34px;
+}
+.reviews {
+  padding: 70px 0px 20px 0px;
+}
+.bg {
+  background-image: url("../../public/images/reviewbg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1400px;
+}
+.reviews h2 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 54px;
+  color: #07abf5;
+}
+.reviewMain {
+  background-color: #f3fbfb;
+  border-radius: 10px;
+  padding: 30px 30px 95px 30px;
+  box-shadow: 0px 4px 6px 0px #0000001a;
+}
+.reviewImgDiv {
+  position: relative;
+  top: -100px;
+}
+.reviewImg {
+  max-width: 143px;
+  max-height: 143px;
+  width: 100%;
+  height: 100%;
+  /* position: relative; */
+  /* top: -100px; */
+}
+.carousel-indicators {
+  bottom: 35px !important;
+  margin-bottom: 0px !important;
+}
+.reviews p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 33px;
+}
+.reviews h3 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  color: #000000;
+}
+.carousel-indicators [data-bs-target] {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 27px !important;
+  height: 27px !important;
+  border-radius: 50% !important;
+  padding: 0;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #b7b7b7 !important;
+  background-clip: padding-box;
+  border: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  opacity: 0.5;
+  transition: opacity 0.6s ease;
+  position: relative;
+
+  margin: 0px 10px;
+  z-index: -1;
+}
+.carousel-indicators .active {
+  opacity: 1 !important;
+  background-color: #07abf5 !important;
+}
+.carousel-control-next-icon {
+  background-image: url("../../public/images/reviewGreater.png") !important;
+  background-color: #f3fbfb !important;
+  background-size: 11.69px 19px !important;
+  background-position: center;
+  border-radius: 50%;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  padding: 30px;
+}
+.carousel-control-prev-icon {
+  background-image: url("../../public/images/reviewLess.png") !important;
+  background-color: #f3fbfb !important;
+  background-size: 11.69px 19px !important;
+  background-position: center;
+  border-radius: 50%;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  padding: 30px;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  opacity: 1 !important;
+  height: 69% !important;
+}
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: visible;
+}
+.getStarted {
+  background-image: url("../../public/images/getStartedBG.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px 0px 150px 0px;
+  color: white;
+}
+.getStarted h1 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+}
+.getStarted a {
+  box-shadow: 0px 4px 4px 0px #00000040;
+  font-size: 24px;
+  /* font-weight: 600; */
+  line-height: 36px;
+  border-radius: 5px;
+}
+.newsletter {
+  background-image: url("../../public/images/newsletterBG.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 75px 40px;
+}
+.newsletter h6 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 40.14px;
+}
+.newsletter h5 {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 71.36px;
+  color: #07abf5;
+}
+.newsletter p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30.12px;
+}
+.newsletter input {
+  border: 1px solid #07abf5;
+  border-bottom: 3px solid #07abf5;
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px 0px #0000001a;
+  padding: 0px 150px 0px 20px;
+
+  margin-right: 15px;
+}
+.newsletter button {
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 25.45px;
+  color: white !important;
+  background-color: #07abf5 !important;
+}
+
+/* Media Query starts from here  */
+
+@media only screen and (max-width: 1400px) {
+  .devClinic {
+    padding: 70px 30px 100px 30px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .devClinic-card-img {
+    max-width: 90px;
+    max-height: 90px;
+    width: 100%;
+    height: 100%;
+  }
+  .devClinic h5 {
+    font-size: 24px;
+  }
+  .devClinic p {
+    font-size: 16px;
+    line-height: 30px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .navUl {
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .infoImgDiv {
+    justify-content: center !important;
+    padding-bottom: 18px !important;
+  }
+  .mobileImgDiv {
+    justify-content: center;
+  }
+  .batchIdApp h1 {
+    text-align: center;
+  }
+  .batchIdApp p {
+    text-align: center;
+  }
+  .optimaizAndStreamline {
+    padding: 70px 0px 70px 0px;
+  }
+  .devClinicImg {
+    margin-top: -132px;
+  }
+  .helped h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48.85px;
+  }
+  .helped p {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20.65px;
+  }
+  .helpedRow {
+    padding-top: 33px !important;
+    padding-bottom: 16px;
+  }
+  .getStarted {
+    padding: 100px 0px;
+  }
+  .getStarted a {
+    font-size: 20px;
+
+    line-height: 0px;
+  }
+  .toStart {
+    text-align: start !important;
+    display: flex;
+    justify-content: start !important;
+  }
+  .info h1 {
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 55px;
+    align-items: center;
+  }
+  .info p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+  }
+  .info .infoLink {
+    font-size: 16px;
+    line-height: normal;
+    padding: 12px !important;
+    margin-top: 0px !important;
+  }
+  .infoImgDiv {
+    padding-bottom: 0px !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .solForDentalClinic h1 {
+    color: #07abf5;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 37px;
+  }
+
+  .devClinic {
+    padding: 70px 30px;
+  }
+  .helped h1 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30.85px;
+  }
+  .helped p {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 13.65px;
+  }
+  .reviews {
+    padding: 35px 0px;
+    padding-bottom: 20px !important;
+  }
+  .carousel-indicators {
+    bottom: 20px !important;
+  }
+  .reviews p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+  .star {
+    max-width: 160px !important;
+    max-height: 34px;
+  }
+  .reviews h3 {
+    font-size: 18px;
+
+    line-height: 18px;
+  }
+  .reviewImg {
+    max-width: 110px;
+    max-height: 110px;
+  }
+  .reviewImgDiv {
+    top: -70px;
+  }
+  .reviewMain {
+    padding: 30px 30px 60px 30px;
+  }
+  #root > section.reviews > div > div > div.container.mb-5 {
+    margin-bottom: 1.5rem !important;
+  }
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    background-size: 7.69px 11px;
+
+    padding: 20px;
+  }
+  .carousel-control-next,
+  .carousel-control-prev {
+    opacity: 1;
+    height: 65%;
+  }
+  .getStarted h1 {
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 27px;
+  }
+  .getStarted a {
+    font-size: 15px;
+    line-height: 0px;
+
+    padding: 13px 23px !important;
+  }
+  .newsletter h6 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 30.14px;
+  }
+  .newsletter h5 {
+    font-size: 50px;
+    line-height: 50.36px;
+  }
+  .newsletter p {
+    font-size: 16px;
+    line-height: 22.12px;
+    margin-top: 0px !important;
+  }
+
+  .newsletter button {
+    font-size: 19px;
+    line-height: 26.45px;
+    padding-right: 2rem !important;
+    padding-left: 2rem !important;
+  }
+  .newsletter input {
+    padding: 0px 50px 0px 20px;
+  }
+  .nav-link {
+    width: 120px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .info {
+    padding: 35px !important;
+  }
+  .info h1 {
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 55px;
+    align-items: center;
+  }
+  .info p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+  }
+  .info .infoLink {
+    font-size: 16px;
+    line-height: normal;
+    padding: 12px !important;
+    margin-top: 0px !important;
+  }
+  .infoImgDiv {
+    padding-bottom: 0px !important;
+  }
+  .info .infoImg {
+    margin-top: 10px;
+  }
+  .solForDentalClinic {
+    padding: 35px 0px 35px 0px !important;
+  }
+  .batchIdApp {
+    padding: 35px 40px 35px 40px !important;
+  }
+  .batchIdApp h1 {
+    font-size: 40px;
+  }
+  .batchIdApp p {
+    font-size: 24px;
+    margin-bottom: 12px;
+  }
+  .batchIdApp li {
+    font-size: 20px;
+
+    line-height: 22px;
+  }
+  .batchIdApp .greaterthan {
+    max-width: 15.38px;
+    max-height: 12px;
+  }
+
+  .optimaizAndStreamline {
+    padding: 35px 0px;
+  }
+  .optimaizAndStreamline h1 {
+    font-size: 26px;
+
+    line-height: normal;
+  }
+  .optimaizAndStreamline p {
+    font-size: 20px;
+
+    line-height: 25px;
+    margin-bottom: 0px !important;
+  }
+  .devClinic {
+    padding: 35px 0px 35px 0px;
+  }
+  .devClinicImg {
+    margin-top: 10px;
+    right: 25px;
+    width: 130%;
+  }
+
+  .helped .row {
+    width: 100%;
+
+    margin-left: 0px !important;
+  }
+  .helped {
+    margin-top: 0px;
+  }
+  .reviewMain {
+    padding: 20px 5px 40px 5px;
+  }
+
+  .reviews h2 {
+    font-size: 30px;
+
+    line-height: 30px;
+  }
+  .reviews p {
+    font-size: 11px;
+    margin-bottom: 0.5rem !important;
+    line-height: 15px;
+  }
+  .star {
+    max-width: 125px !important;
+  }
+  .reviews h3 {
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .reviewImg {
+    max-width: 70px;
+    max-height: 70px;
+  }
+  .reviewImgDiv {
+    top: -60px;
+  }
+  .carousel-indicators {
+    bottom: 15px !important;
+  }
+  .carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 17px !important;
+    height: 17px !important;
+  }
+  #root
+    > section.reviews
+    > div
+    > div
+    > div.row
+    > div.col-lg-10
+    > div
+    > div.carousel-inner
+    > div
+    > div:nth-child(1)
+    > div
+    > div {
+    margin-bottom: 0.5rem !important;
+  }
+  .getStarted {
+    padding: 65px 0px;
+  }
+  .newsletter {
+    padding: 35px 0px !important;
+  }
+  .container-fluid {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+  }
+  .container {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+  }
+  .Foooter {
+    padding: 35px 0px !important;
+  }
+  body > section.optimaizAndStreamline > div > div {
+    padding-bottom: 0px !important;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .info {
+    padding: 35px 15px !important;
+  }
+  .info p {
+    font-size: 18px;
+
+    line-height: 26px;
+  }
+  .info h1 {
+    font-size: 40px;
+
+    line-height: 36px;
+  }
+  .infoImgDiv {
+    padding-top: 26px !important;
+  }
+  .solForDentalClinic h1 {
+    color: #07abf5;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 22px;
+  }
+  .solForDentalClinic p {
+    font-size: 16px;
+
+    line-height: 22px;
+  }
+  #root > section.solForDentalClinic.py-5 > div > div > div:nth-child(2) > div {
+    padding: 0px !important;
+  }
+  .batchIdApp {
+    padding: 35px 0px 35px 0px !important;
+  }
+  .batchIdApp h1 {
+    font-size: 28px;
+  }
+  .batchIdApp p {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  .batchIdApp li {
+    font-size: 14px;
+    line-height: 15px;
+    padding-bottom: 10px;
+  }
+  .batchIdApp .greaterthan {
+    max-width: 10.38px;
+    max-height: 8px;
+    margin-right: 13px;
+  }
+  .optimaizAndStreamline h1 {
+    font-size: 20px;
+    line-height: 21px;
+  }
+  .optimaizAndStreamline p {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 0px !important;
+  }
+  .devClinic h5 {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .devClinic p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .helped h1 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24.85px;
+  }
+  .helped p {
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 10.65px;
+  }
+  .reviews h2 {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    background-size: 4.69px 7px;
+    padding: 0px;
+  }
+  .newsletter h6 {
+    font-size: 25px;
+  }
+  .newsletter h5 {
+    font-size: 40px;
+    line-height: 40.36px;
+  }
+  #root > section.newsletter.py-5 > div > div > div {
+    padding: 0px !important;
+  }
+}
+@media screen and (max-width: 503px) {
+  .newsletter input {
+    margin-bottom: 18px;
+  }
+}
+
+@media only screen and (min-width: 575px) and (max-width: 671px) {
+  .devClinicImg {
+    margin-top: 0px !important;
+  }
+  body > section.optimaizAndStreamline > div > div {
+    padding-bottom: 0px !important;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .bg {
+    background-size: 1350px;
+  }
+}
+@media only screen and (max-width: 1375px) {
+  .bg {
+    background-size: 1245px;
+  }
+}
+@media only screen and (max-width: 1270px) {
+  .bg {
+    background-size: 1155px;
+  }
+}
+@media only screen and (max-width: 1178px) {
+  .bg {
+    background-size: 1085px;
+  }
+}
+@media only screen and (max-width: 1110px) {
+  .bg {
+    background-image: none;
+  }
+}
+@media only screen and (min-width: 1590px) {
+  .bg {
+    background-size: 1550px;
+  }
+}
+@media only screen and (min-width: 1778px) {
+  .bg {
+    background-size: 1550px;
+  }
+}
+@media only screen and (min-width: 1778px) {
+  .bg {
+    background-size: 1752px;
+  }
+}
+@media only screen and (min-width: 2020px) {
+  .bg {
+    background-image: none;
   }
 }
